@@ -1,3 +1,4 @@
 acdh-tei-pyutils
 rdflib
 lxml>=5.1.1
+pyRdfa3
