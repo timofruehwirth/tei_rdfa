@@ -2,7 +2,7 @@
 
 :construction:
 
-`tei_rdfa()` is a dedicated function to extract RDFa data embedded in TEI-XML files.
+`tei_rdfa()` is a dedicated function to extract RDF embedded in TEI-XML files by means of RDFa.
 
 It performs the following tasks:
 - validate the file format (`.xml` or `.tei`)
