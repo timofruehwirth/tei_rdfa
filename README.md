@@ -1,6 +1,8 @@
 # tei-rdfa
 
-:construction:
+> [!NOTE]  
+> :construction: under construction
+
 
 `tei_rdfa()` is a dedicated function to extract RDF data that is embedded through RDFa in TEI-XML.
 
