@@ -1,2 +1,2 @@
-rdflib
+rdflib>=6.2.0
 lxml>=5.1.1
