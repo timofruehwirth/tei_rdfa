@@ -70,7 +70,7 @@ tei-rdfa/
     ├── __init__.py
     ├── requirements.txt
     └── ipynb/
-        └── tei_rdfa.ipynb
+        └── tei-rdfa.ipynb
 ```
 The repository is organized as follows:
 
