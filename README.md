@@ -74,6 +74,6 @@ tei_rdfa/
 ```
 The repository is organized as follows:
 
-- **tei-rdfa/** contains project metadata and configuration
-- **tei-rdfa/tei-rdfa/** contains the package implementation
-- **tei_rdfa/tei-rdfa/ipynb/** contains a Jupyter notebook demonstrating usage examples and error scenarios
+- **tei_rdfa/** contains project metadata and configuration
+- **tei_rdfa/tei_rdfa/** contains the package implementation
+- **tei_rdfa/tei_rdfa/ipynb/** contains a Jupyter notebook demonstrating usage examples and error scenarios
