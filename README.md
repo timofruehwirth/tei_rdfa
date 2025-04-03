@@ -58,3 +58,17 @@ graph = tei_rdfa(
 # Process resulting graph
 print(graph.serialize(format='turtle'))
 ```
+
+## Directory Structure
+
+```
+tei-rdfa/
+├── LICENSE
+├── README.md
+├── pyproject.toml
+└── tei-rdfa/
+    ├── __init__.py
+    ├── requirements.txt
+    └── ipynb/
+        └── tei_rdfa.ipynb
+```
