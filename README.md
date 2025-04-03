@@ -1,4 +1,4 @@
-# tei-rdfa
+# tei_rdfa
 
 A Python utility for extracting RDFa data from TEI-XML documents.
 
