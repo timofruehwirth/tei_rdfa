@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tei-rdfa"
+version = "0.1.0-beta.1"
+authors = [
+    { name = "Timo Frühwirth", email = "timo.fruehwirth@oeaw.ac.at" },
+]
+description = "A Python utility for extracting RDFa data from TEI-XML documents."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "rdflib>=6.2.0",
+    "lxml>=5.1.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/timofruehwirth/tei-rdfa"
+Issues = "https://github.com/timofruehwirth/tei-rdfa/issues"
