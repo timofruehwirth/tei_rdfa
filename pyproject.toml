@@ -23,5 +23,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/timofruehwirth/tei-rdfa"
-Issues = "https://github.com/timofruehwirth/tei-rdfa/issues"
+Homepage = "https://github.com/timofruehwirth/tei_rdfa"
+Issues = "https://github.com/timofruehwirth/tei_rdfa/issues"
