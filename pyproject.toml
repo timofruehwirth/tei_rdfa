@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "tei-rdfa"
+name = "tei_rdfa"
 version = "0.1.0-beta.1"
 authors = [
     { name = "Timo Frühwirth", email = "timo.fruehwirth@oeaw.ac.at" },
