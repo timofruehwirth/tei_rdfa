@@ -62,15 +62,15 @@ print(graph.serialize(format='turtle'))
 ## Directory Structure
 
 ```
-tei-rdfa/
+tei_rdfa/
 ├── LICENSE
 ├── README.md
 ├── pyproject.toml
-└── tei-rdfa/
+└── tei_rdfa/
     ├── __init__.py
     ├── requirements.txt
     └── ipynb/
-        └── tei-rdfa.ipynb
+        └── tei_rdfa.ipynb
 ```
 The repository is organized as follows:
 
