@@ -40,6 +40,10 @@ The package includes several helper functions that handle specific aspects of RD
 
 Error messages provide contextual information to facilitate debugging and resolution.
 
+## Installation
+
+`pip install tei-rdfa`
+
 ## Example Usage
 
 ```python
