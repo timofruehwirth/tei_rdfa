@@ -4,7 +4,7 @@ A Python utility for extracting RDFa data from TEI-XML documents.
 
 ## Overview
 
-`tei_rdfa()` is a dedicated function that extracts Resource Description Framework in Attributes (RDFa) data embedded in TEI (Text Encoding Initiative) XML documents and converts it into a standard RDF graph.
+`tei_rdfa()` is a dedicated function that extracts RDFa (Resource Description Framework in Attributes) data embedded in TEI (Text Encoding Initiative) XML documents and converts it into a standard RDF graph.
 
 The function handles native TEI namespace formatting through `<prefixDef>` elements (`//tei:encodingDesc/tei:listPrefixDef/tei:prefixDef`) rather than through the HTML5-style `prefix` or XHTML/XML-style `xmlns:prefix` attributes.
 
