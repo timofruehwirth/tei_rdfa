@@ -44,7 +44,9 @@ Error messages provide contextual information to facilitate debugging and resolu
 
 ## Installation
 
-`pip install tei-rdfa`
+```shell
+pip install tei-rdfa
+```
 
 ## Example Usage
 
