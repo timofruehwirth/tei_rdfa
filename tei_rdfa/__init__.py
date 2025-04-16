@@ -69,11 +69,7 @@ def tei_rdfa(xmlfile: str, xpath_expr: Optional[str] = None, verbose: bool = Tru
         
         # output graph
         if verbose:  # check verbosity status
-            logger.info('Serializing RDF graph in Turtle format ...')
-            print(g.serialize(format='turtle'))
-            
-            logger.info('Serializing RDF graph in RDF-XML format ...')
-            print(g.serialize(format='xml'))
+            logger.info(f'Returning RDF graph with {len(g)} triples ...')
         
         return g  # return RDF graph for futher processing
 
