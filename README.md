@@ -5,7 +5,7 @@
 
 A Python utility for extracting RDFa data from TEI-XML documents.
 
-![tei-rdfa](tei-rdfa.png)
+
 
 ## Overview
 
