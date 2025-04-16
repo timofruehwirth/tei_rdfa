@@ -26,7 +26,7 @@ The function handles native TEI namespace formatting through `<prefixDef>` eleme
 
 - `xmlfile` (str): File path or URL to a TEI-XML file (must have `.xml` or `.tei` extension)
 - `xpath_expr` (str, optional): XPath expression to target specific elements for RDFa extraction; will otherwise target the XML root element
-- `verbose` (bool, default=True): Controls logging output and graph serialization display
+- `verbose` (bool, default=True): Controls logging output
 
 ## Dependencies
 
