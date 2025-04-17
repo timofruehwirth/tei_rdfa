@@ -1,10 +1,17 @@
-# tei_rdfa
+> [!IMPORTANT]
+> tei-rdfa is currently in beta and welcomes feedback from early adopters.
+
+# tei-rdfa
 
 A Python utility for extracting RDFa data from TEI-XML documents.
 
+![tei-rdfa](tei-rdfa.png)
+
 ## Overview
 
-`tei_rdfa()` is a dedicated function that extracts Resource Description Framework in Attributes (RDFa) data embedded in TEI (Text Encoding Initiative) XML documents and converts it into a standard RDF graph. The function handles native TEI namespace formatting through `<prefixDef>` elements (inside the `<encodingDesc>` section of the `<teiHeader>`).
+`tei_rdfa()` is a dedicated function that extracts RDFa (Resource Description Framework in Attributes) data embedded in TEI (Text Encoding Initiative) XML documents and converts it into a standard RDF graph.
+
+The function handles native TEI namespace formatting through `<prefixDef>` elements (`//tei:encodingDesc/tei:listPrefixDef/tei:prefixDef`) rather than through the HTML5-style `prefix` or XHTML/XML-style `xmlns:prefix` attributes.[^1]
 
 ## Features
 
@@ -21,7 +28,7 @@ A Python utility for extracting RDFa data from TEI-XML documents.
 
 - `xmlfile` (str): File path or URL to a TEI-XML file (must have `.xml` or `.tei` extension)
 - `xpath_expr` (str, optional): XPath expression to target specific elements for RDFa extraction; will otherwise target the XML root element
-- `verbose` (bool, default=True): Controls logging output and graph serialization display
+- `verbose` (bool, default=True): Controls logging output
 
 ## Dependencies
 
@@ -39,6 +46,12 @@ The package includes several helper functions that handle specific aspects of RD
 - Erroneous XPath queries
 
 Error messages provide contextual information to facilitate debugging and resolution.
+
+## Installation
+
+```shell
+pip install tei-rdfa
+```
 
 ## Example Usage
 
@@ -77,3 +90,6 @@ The repository is organized as follows:
 - **tei_rdfa/** contains project metadata and configuration
 - **tei_rdfa/tei_rdfa/** contains the package implementation
 - **tei_rdfa/tei_rdfa/ipynb/** contains a Jupyter notebook demonstrating usage examples and error scenarios
+
+---
+[^1]: See https://github.com/TEIC/TEI/issues/1860.
