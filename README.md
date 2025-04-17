@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15234344.svg)](https://doi.org/10.5281/zenodo.15234344)
+
+
 > [!IMPORTANT]
 > tei-rdfa is currently in beta and welcomes feedback from early adopters.
 
