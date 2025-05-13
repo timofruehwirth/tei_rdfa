@@ -1,5 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15234344.svg)](https://doi.org/10.5281/zenodo.15234344)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15234344.svg)](https://doi.org/10.5281/zenodo.15234344) [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0) [![PyPi Version](https://img.shields.io/pypi/v/tei-rdfa.svg)](https://pypi.python.org/pypi/tei-rdfa/)
 
 > [!IMPORTANT]
 > tei-rdfa is currently in beta and welcomes feedback from early adopters.
